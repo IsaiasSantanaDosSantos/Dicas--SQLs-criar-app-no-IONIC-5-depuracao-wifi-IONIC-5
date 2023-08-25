@@ -1,0 +1,9 @@
+***********  CRIAR PÁGINA PARA NAVEGAR ENTRE ELAS NO IONIC *************
+
+1ª - Criar página com o comando:
+	"ionic generate page nome-da-pasta/nome-do-arquivo"
+
+Com esse comando já é criado também toda a rota, inclusive caso queira criar mais
+de uma página na mesma pasta é só trocar o nome do arquivo no comando a cima
+deixando a partir da "/" (barra) para trás. 
+

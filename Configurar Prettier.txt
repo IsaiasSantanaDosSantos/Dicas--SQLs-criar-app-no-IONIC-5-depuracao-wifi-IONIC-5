@@ -1,0 +1,15 @@
+**********  COMO CONFIGURAR O PRETTIER **********
+
+ Antes de mais nada deve-se criar um arquivo ".prettierrs" nos pasta principal
+do projeto e colocar essas configurações.
+
+{
+    "trailingComma": "es5",  (sempre uma virgula na última propriedade)
+    "tabWidth": 4,           (espaço de indentação inicial)
+    "semi": true,            (ponto e virgula no final?)
+    "singleQuote": false,    (aspas simples?)
+    "printwidth": 80         (Contidade de caracteres por linha)
+}
+
+
+Após é só ativar os atalhos nas configurações do VSC para formatar ao salvar.

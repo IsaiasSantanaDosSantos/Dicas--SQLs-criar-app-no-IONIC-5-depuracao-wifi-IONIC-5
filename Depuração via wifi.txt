@@ -1,0 +1,28 @@
+*** COMO ATIVAR O MODO DEPURAÇÃO NO CELULAR VIA WIFI ***
+
+1ª - Ativar modo desenvolvedor no celular;
+
+2ª - Em configurações do modo desenvolvedor ativar a depuração via
+USB e via WIFI;
+
+3ª - Ir em Wifi, depois configurações Wifi, depois Avançado e localizar
+o ENDEREÇO IP do celular (no meu caso é 192.168.15.15);
+
+4ª - Após os passo anteriores, conecte seu celular via USB no PC ir no 
+términal no PC e dar o comando:   "adb devices" , onde aparecerá uma 
+mensagem no celular que devemos aceitar (isso aparecerá apenas na primeira 
+vez, pois no check-box vamos clicar em "sempre confiar neste comutador" e 
+mostrará o código de celular dizendo que esta conectado (device);
+
+5ª - Para sair da conexão USB e ir para WIFI, dê o comando: "adb tcpip 5555"
+(5555 é o número da porta que será conectado). Após esse comando, o PC irá fazer
+um restarte no modo TCP e o celular resetou a confuguração USB. Nesse ponto 
+podemos desconectar o cabo USB.
+
+6ª - Ainda no términal para concluir a conexão via wifi, devemos dar o comando:
+"adb connect 192.168.15.15:5555" (falando para o pc conectar o ip "192.168.15.15'
+na porta "5555" que foi preparada anteriormente.
+
+Pronto! mostrará uma mensagem "connected to 192.168.15.15:5555" confirmando
+que o celular está conectado!!!
+

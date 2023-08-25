@@ -1,0 +1,52 @@
+Códigos para os históricos:
+
+A validada deste pode ser realizada pelo QRCODE abaixo:
+
+|QRCODE|
+
+|strCidadeNegocio|/|strEstadoNegocio|, |dataDiaMesAno|
+|strNome|
+|strRgUf|
+|strRG|
+|strCPF|
+|strCurso|
+|strCargaH|?
+|strInformacoesComplementares|
+|sub|
+|strMaeAluno|
+|strPaiAluno|
+|strNomeMaePai| → exclusivo cliente id-727177 
+|anoAnterior|
+|totalpago|
+|valor|
+|mes|
+|strNascimento| ?
+|strMunicipioAluno|
+|strGenero|
+|strSexo|?
+|strNacionalidadeAluno|
+|strDisciplinas|
+|strNotas|
+|strDataConclusao|
+|strHrsPresenciais|
+|strHrsDistancia|
+|strTotalHrsPorDisciplina|
+|strNivelCurso|?
+|strTituloCurso|?
+|strCurso|?
+|strTitulacao|
+|strDocente|
+|strFrequencia|
+|strEnderecoAluno|?
+|strEmail|
+|strNumeroMatricula|?
+|strCargaHrCurso|?
+
+
+viewGrid
+subViewGrid
+
+
+
+
+

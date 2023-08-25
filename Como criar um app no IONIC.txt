@@ -1,0 +1,62 @@
+PASSOS PARA CRIAR UM APP NO IONIC:
+
+1ª - Criar app;
+	Comando: "ionic start myApp tabs --cordova"
+
+	Obs: Escolher o Angular como framework e não precisa criar conta.
+
+2ª - Entrar na pasta do app que foi criado;
+	Comando: "cd myApp"
+
+    ******* PARA RODAR A APLICAÇÃO NO NAVEGADOR *******
+    2.1 - Roda no navegador com opção de tipos diferentes de sistema operacional:
+	     Comando: "ionic serve -l"
+
+	      Para mostrar apenas uma forma de visualização no navegador:
+	      Comando: "ionic serve"
+
+
+3º - Criar plataforma do android;
+	Comando: "ionic cordova platform add android"
+
+	Esse comando é preciso apenas uma vez por app
+
+4ª - Fazer a compilação no app e criar o apk do android;
+	Comando: "ionic cordova build android"
+
+	Esse comando é apenas para teste, onde é gerado uma versão de teste 
+onde podemos mostrar para nossos amigos. O comando para produção é:
+"ionic cordova build android --prod" que já cria um app pronto para publicar
+na play store, se for o caso. 
+
+
+5ª - Para rodar o app direto no nosso celular;
+	Comando: "ionic cordova run android"
+
+	Obs: Esse comando só envia o app com a úitima atualização, ou seja,
+caso seja feita alguma alteração no app após enviar para o celular, o app do 
+celular não mostrará as mudanças. 
+
+   5.1 Para rodar o app no celular e o mesmo se atualizado automaticamente após
+cada mudando no app (no caso no Visual Studio Code), usamos o comando:
+		"ionic cordova run android -l"
+
+
+
+************** CRIAR ÍCONES E SPLASH *************
+
+A imagem de origem dos ícones deve ter pelo menos 1024×1024px e estar localizada 
+em resources/icon.png . A imagem de origem para telas iniciais deve ter, idealmente, 
+pelo menos 2732×2732px e estar localizada em resources/splash.png . Se você usou 
+ionic start, já deve haver recursos Ionic padrão no diretório resources/ , que você 
+pode substituir.
+
+Você também pode gerar ícones e telas de apresentação específicos da plataforma 
+colocando-os no respectivo diretório resources/ < plataforma > / . Por exemplo, para 
+gerar um ícone para Android, coloque sua imagem em resources/android/icon.png .
+
+	Comando:  "ionic cordova resources ios"   
+      	    "ionic cordova resources android"
+
+
+
