@@ -22,7 +22,7 @@ PASSOS PARA CRIAR UM APP NO IONIC:
 	Esse comando é preciso apenas uma vez por app
 
 4ª - Fazer a compilação no app e criar o apk do android;
-	Comando: "ionic cordova build android"
+	Comando: "ionic cordova build --platform=android"
 
 	Esse comando é apenas para teste, onde é gerado uma versão de teste 
 onde podemos mostrar para nossos amigos. O comando para produção é:
